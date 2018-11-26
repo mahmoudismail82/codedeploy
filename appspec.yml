@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /codedeploy
-    destination: /webapps/Config
+  - source: /
+    destination: /codedeploy/test/
