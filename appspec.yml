@@ -3,5 +3,5 @@ os: linux
 files:
   - source: /
     destination: /codedeploy/test/
-  - source: /index.php
+  - source: /hello.php
     destination: /var/www/html/
