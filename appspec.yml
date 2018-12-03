@@ -5,5 +5,5 @@ files:
     destination: /codedeploy/test/
   - source: /hello.php
     destination: /var/www/html/
-  - source /httpd.conf
+  - source: /httpd.conf
     destination: /etc/httpd/conf/
