@@ -5,3 +5,9 @@ files:
     destination: /codedeploy/test/
   - source: /hello.php
     destination: /var/www/html/
+hooks:
+  BeforeInstall:
+    - location: scripts/remove-httpdconf.sh
+  AfterInstale:
+    - location: scripts/restart-service.sh
+      timeout: 180
