@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo rm /etc/conf/httpd/conf/httpd.conf
+sudo rm /etc/httpd/conf/httpd.conf
